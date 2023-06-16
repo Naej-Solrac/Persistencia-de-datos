@@ -1,4 +1,4 @@
-package com.mycompany.mensajes_app;
+package com.platzi.mensajes_app;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

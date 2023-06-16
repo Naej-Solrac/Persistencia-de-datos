@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.mensajes_app;
+package com.platzi.mensajes_app;
 
 import java.sql.Connection;
 
