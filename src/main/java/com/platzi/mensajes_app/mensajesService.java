@@ -19,7 +19,7 @@ public class mensajesService {
         MensajesDAO.CrearMensajeDB(registro);
     }
     public static void listarMensaje () {
-
+        MensajesDAO.leerMensajeDB();
     }
     public static void  borrarMensaje () {
 
