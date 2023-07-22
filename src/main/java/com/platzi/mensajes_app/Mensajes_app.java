@@ -21,8 +21,8 @@ public class Mensajes_app {
             System.out.println("Aplicacion de Mensajes");
             System.out.println("1. Crear un mensajes");
             System.out.println("2. Listar mensajes");
-            System.out.println("3. Editar mensajes");
-            System.out.println("4. Eliminar mensajes");
+            System.out.println("3. Borrar mensajes");
+            System.out.println("4. Editar mensajes");
             System.out.println("5. Salir");
             opcion = sc.nextInt();
 
@@ -34,10 +34,10 @@ public class Mensajes_app {
                     mensajesService.listarMensaje();
                     break;
                 case 3:
-                    mensajesService.editarMensaje();
+                    mensajesService.borrarMensaje();
                     break;
                 case 4:
-                    mensajesService.borrarMensaje();
+                    mensajesService.editarMensaje();
                     break;
                 default:
                     break;
